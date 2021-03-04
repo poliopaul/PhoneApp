@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.themes.ThemesView"
+    tools:showIn="@layout/activity_themes_menu"
+    android:background="@mipmap/bg"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:id="@+id/scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbarStyle="outsideOverlay"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Themes"
+                android:id="@+id/textView2"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textAlignment="center"
+                android:layout_span="3"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="35dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_weight="1.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Home"
+                android:id="@+id/themeHomeText"
+                android:clickable="true"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textAlignment="center"
+                android:layout_span="3"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_weight="1.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Cinema"
+                android:id="@+id/themeCinemaText"
+                android:clickable="true"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textAlignment="center"
+                android:layout_span="3"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_weight="1.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Gaming"
+                android:id="@+id/themeGamingText"
+                android:clickable="true"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textAlignment="center"
+                android:layout_span="3"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_weight="1.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sleep"
+                android:id="@+id/themeSleepText"
+                android:clickable="true"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textAlignment="center"
+                android:layout_span="3"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_weight="1.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Away"
+                android:id="@+id/themeAwayText"
+                android:clickable="true"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textAlignment="center"
+                android:layout_span="3"/>
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center|bottom"
+            android:orientation="vertical">
+        </LinearLayout>
+        <TableRow>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:clickable="true"
+                android:id="@+id/imageBack"
+                android:src="@drawable/back"
+                android:textAlignment="center"
+                android:layout_span="3"
+                android:layout_column="0"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Back"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:id="@+id/backText"
+                android:layout_span="3"
+                android:layout_column="0"
+                android:layout_weight="1" />
+        </TableRow>
+
+    </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
